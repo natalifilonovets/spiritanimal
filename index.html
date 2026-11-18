@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080b20">
+  <meta name="description" content="Answer 12 questions and meet your cosmic animal.">
+  <title>Which Cosmic Animal Are You?</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./data.js" defer></script>
+  <script src="./script.js" defer></script>
+</head>
+<body>
+  <div class="stars" aria-hidden="true"></div>
+  <div class="floating-stars" aria-hidden="true">
+    <span style="--x: 8%; --y: 19%; --size: 18px; --time: 13s; --delay: -4s"></span>
+    <span style="--x: 19%; --y: 78%; --size: 11px; --time: 17s; --delay: -9s"></span>
+    <span style="--x: 31%; --y: 9%; --size: 8px; --time: 11s; --delay: -7s"></span>
+    <span style="--x: 47%; --y: 90%; --size: 16px; --time: 15s; --delay: -3s"></span>
+    <span style="--x: 64%; --y: 12%; --size: 12px; --time: 14s; --delay: -11s"></span>
+    <span style="--x: 81%; --y: 84%; --size: 15px; --time: 19s; --delay: -6s"></span>
+    <span style="--x: 91%; --y: 29%; --size: 20px; --time: 16s; --delay: -12s"></span>
+    <span style="--x: 95%; --y: 63%; --size: 8px; --time: 12s; --delay: -8s"></span>
+  </div>
+  <main id="quiz" class="shell">
+    <section class="panel start">
+      <div class="intro">
+        <span class="ornament" aria-hidden="true">✦</span>
+        <h1 tabindex="-1">Which Cosmic <em>Animal</em> Are You?</h1>
+        <p class="subtitle">Somewhere in the stars, an animal is waiting for you...</p>
+        <p class="details">12 questions · 6 animals · Just for fun!</p>
+        <button type="button" class="primary" id="start">Start the quiz</button>
+      </div>
+      <div class="cover" aria-hidden="true"></div>
+    </section>
+  </main>
+</body>
+</html>
